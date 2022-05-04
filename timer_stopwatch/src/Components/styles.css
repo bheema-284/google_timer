@@ -1,0 +1,60 @@
+.timer1{
+text-align: center;
+}
+.stopwatch{
+text-align: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: auto;
+    height: 30px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+.start{
+    background-color: rgb(67, 67, 237);
+    color: white;
+    width: 80px;
+    border: transparent;
+     height: 30px;
+     border:1px solid rgb(67, 67, 237);
+}
+.start:hover{
+    background-color: rgb(6, 6, 196);
+    color: white;
+     height: 30px;
+     width: 80px;
+}
+.reset{
+    background-color: transparent;
+    color: blue;
+    width: 80px;
+    border:1px solid #cecece;
+    height: 30px;
+}
+.reset:hover{
+    background-color: #f7f7f7;
+    color: blue;
+    width: 80px;
+    border:transparent;
+    height: 30px;
+}
+.buttons
+{
+    display: flex;
+    gap: 5px;
+    
+}
+.stopwatch-card{
+padding-left: 20px;
+}

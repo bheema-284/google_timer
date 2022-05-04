@@ -1,11 +1,20 @@
-import { useState } from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import { StopWatch } from './Components/StopWatch';
+import { Timer } from './Components/Timer';
+import { Navbar } from './Components/Navbar';
+import { Route, Routes } from 'react-router-dom';
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <div className="App">Timer App</div>;
+  return (
+    <div className="App">
+      <Navbar />
+      <div className="timer">
+        <Routes>
+          <Route path="/" element={<Timer />}></Route>
+          <Route path="/stopwatch" element={<StopWatch />}></Route>
+        </Routes>
+      </div>
+    </div>
+  );
 }
 
 export default App;
