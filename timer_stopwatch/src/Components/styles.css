@@ -13,16 +13,19 @@ text-align: center;
 }
 .link{
     text-decoration: none;
+/*      text-decoration: underline; */
     color: black;
 }
 
 .link:hover{
     text-decoration: underline;
+/*      text-decoration: none; */
     color: blue;
 }
 
 .start{
     background-color: rgb(67, 67, 237);
+/*     background-color: transparent; */
     color: white;
     width: 80px;
     border: transparent;
@@ -31,12 +34,14 @@ text-align: center;
 }
 .start:hover{
     background-color: rgb(6, 6, 196);
+/*     background-color: transparent; */
     color: white;
      height: 30px;
      width: 80px;
 }
 .reset{
     background-color: transparent;
+/*     background-color: rgb(6, 6, 196); */
     color: blue;
     width: 80px;
     border:1px solid #cecece;
